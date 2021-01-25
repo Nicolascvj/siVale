@@ -18,7 +18,8 @@ if (process.env.NODE_ENV === 'dev'){
     urlDB = "mongodb://localhost:27017/cocoa";
 } else {
     urlDB = process.env.MONGO_URI;
-}00
+}
+
 
 process.env.URLDB = urlDB;
 
