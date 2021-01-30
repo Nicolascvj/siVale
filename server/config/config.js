@@ -15,10 +15,13 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
 let urlDB;
 
 if (process.env.NODE_ENV === 'dev'){
-    urlDB = "mongodb://localhost:27017/banco";
+    urlDB = "mongodb+srv://cocoa-user:x8qOrxBlM4yIjsB3@cluster0.l2gsu.mongodb.net/bancos";
+   
+   // urlDB = "mongodb://localhost:27017/banco";
 } else {
     urlDB = "mongodb+srv://cocoa-user:x8qOrxBlM4yIjsB3@cluster0.l2gsu.mongodb.net/bancos";
     //process.env.MONGO_URI;
+    urlDB = "mongodb://localhost:27017/banco";
 }
 
 

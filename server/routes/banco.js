@@ -39,36 +39,34 @@ app.get('/banco',[verificaToken, verificaAdminRole],function (req, res) {
         })
 });
 
-app.post('/banco', function (req, res) {
-//     let body = req.body;
-//     let bancos = new Banco({
-//         caja: body.caja,
-//         fecha: body.fecha,
+app.post('/banco', [verificaToken, verificaAdminRole],function (req, res) {
+    let body = req.body;
+    let bancos = new Banco({
+        caja: body.caja,
+        fecha: body.fecha,
+        hora: body.hora
+});
 
-//         hora: body.hora,
+// res.json({
+//     ok: true,
+//     message: "Registro correcto"
+// })
 
-res.json({
-    ok: true,
-    message: "M"
-})
 
-//     });
-//     //console.log(bancos);
+    bancos.save((err, bancoDB) => {
+        if (err) {
+            return res.status(400).json({
+                ok: false,
+                err,
 
-//     bancos.save((err, bancoDB) => {
-//         if (err) {
-//             return res.status(400).json({
-//                 ok: false,
-//                 err,
+            });
+        }
+        res.json({
+            ok: true,
+            bancos: bancoDB
+        });
 
-//             });
-//         }
-//         res.json({
-//             ok: true,
-//             bancos: bancoDB
-//         });
-
-//     });
+    });
  });
 
 app.delete('/banco/:id', function (req, res) {
