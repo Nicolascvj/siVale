@@ -12,5 +12,10 @@ sistema, como ya se menciono todos los usuarios y administradores se encuentran 
 
 La aplicacion se encuentra alojada en un repositorio de Heroku (https://gentle-waters-83350.herokuapp.com/) donde se puede comprobar su funcionalidad con la aplicacion de su agrado en este caso se opto por usar "Postman"
 
-![Captura de pantalla de 2021-01-31 18-38-03](https://user-images.githubusercontent.com/70551518/106401693-7b31dc00-63f3-11eb-9027-eb8b10cd74de.png)
+
+# Dependencias
+
+   body-parser - Middleware de análisis del cuerpo
+   express - Framework web
+   mongoose - Base de Datos
 
