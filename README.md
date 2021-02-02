@@ -74,7 +74,7 @@ EL deploy de la aplicacion se encuentra en Heroku [Aplicacion](https://gentle-wa
 
 ![](images/7.png)
 
-# Base de datos
+# Base de datos :floppy_disk:
 
 Como ya se menciono al app cuenta con un sustema de base de datos donde se almacenan los datos ingresados tanto de usuarios como de turnos de caja para la prueba y ejecucion del mismo se lo realizo local y en la web como se detalla a continuacion podemos ver el almacenamiento exitoso de la informacion en ambos casos
 
@@ -92,4 +92,5 @@ Como ya se menciono al app cuenta con un sustema de base de datos donde se almac
 
 # Autor :man:
 
-Nicolas Cazco
+Nicolas Eduardo Cazco Villa - Estudiante Ingenieria en Ciencias de la Computacion
+
