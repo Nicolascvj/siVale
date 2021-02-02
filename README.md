@@ -61,11 +61,34 @@ En el siguiente metodo lo que se hace es consultar a la base de datos toda la in
 
 "img5"
 
+## Delete
+
+El siguiente metodo permite al administrador eliminar un registro previo realizado en caja, como ya se menciono de igual forma se necesita ser administrador y un token generado 
+
+"img6"
 
 
+# Despliegue :partly_sunny:
 
+EL deploy de la aplicacion se encuentra en Heroku [Aplicacion](https://gentle-waters-83350.herokuapp.com/)
 
+"img7"
 
+# Base de datos
+
+Como ya se menciono al app cuenta con un sustema de base de datos donde se almacenan los datos ingresados tanto de usuarios como de turnos de caja para la prueba y ejecucion del mismo se lo realizo local y en la web como se detalla a continuacion podemos ver el almacenamiento exitoso de la informacion en ambos casos
+
+## Tablas
+
+"img8"
+
+## Atlas: MongoDB
+
+"img9"
+
+## Local
+
+"img10"
 
 # Autor :man:
 
