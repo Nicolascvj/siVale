@@ -8,7 +8,7 @@ lo podra realizar solo los Admin registrados en el sistema con un token generado
 sistema, como ya se menciono todos los usuarios y administradores se encuentran de igual forma almacenados en MongoDB Atlas
 
  
-# Aplicacion Web
+# Aplicacion Web :beginner:
 
 La aplicacion se encuentra alojada en un repositorio de Heroku [Aplicacion](https://gentle-waters-83350.herokuapp.com/) donde se puede comprobar su funcionalidad con la aplicacion de su agrado en este caso se opto por usar "Postman"
 
@@ -39,13 +39,13 @@ Una vez creado el nuevo usuario este debera ingresar(Login) para generar un toke
 
 ![](images/2.png)
 
-# Metodos
+# Metodos :open_file_folder:
 ## Post
 
 En este metodo lo que se hace es ingresar los datos que se generan al momento de presionar un boton y este almacena en la base de datos los campos
- * Hora
- * Fecha
- * Caja
+ * Hora :watch:
+ * Fecha :date:
+ * Caja :fax:
  
 En este caso este metodo se encuntra validado con un token para poder ingresar datos, si todo es correcto el mensaje que deberia desplegar es el siguiente
  
