@@ -19,9 +19,9 @@ La aplicacion se encuentra alojada en un repositorio de Heroku [Aplicacion](http
    * body-parser - Middleware de análisis del cuerpo
    * express - Framework web
    * mongoose - Base de Datos
-   * bcrypt -
-   * jsonwebtoken -
-   * underscore -
+   * bcrypt - Función hash de contraseña 
+   * jsonwebtoken - Creación de tokens
+   
    
 # Herramientas :hammer:
 
