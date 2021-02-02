@@ -33,11 +33,11 @@ La aplicacion se encuentra alojada en un repositorio de Heroku [Aplicacion](http
 
 Para la ejecucion de la aplicacion se necesitara en primera instancia tener una cuenta admin previamente creada con usuario "ADMIN_ROLE" 
 
-"img1"
+![](images/1.png)
 
 Una vez creado el nuevo usuario este debera ingresar(Login) para generar un token que le permitira utilizar manipular todos los metodos previamente creados
 
-"img2"
+![](images/2.png)
 
 # Metodos
 ## Post
@@ -49,30 +49,30 @@ En este metodo lo que se hace es ingresar los datos que se generan al momento de
  
 En este caso este metodo se encuntra validado con un token para poder ingresar datos, si todo es correcto el mensaje que deberia desplegar es el siguiente
  
-"img3"
+![](images/3.png)
 
 En caso de que no se este ingresado el token correcto el mensaje sera el siguiente:
 
-"img4"
+![](images/4.png)
 
 ## Get
 
 En el siguiente metodo lo que se hace es consultar a la base de datos toda la informacion almacenada, en este caso por filtros donde se obtiene el numero de cajas que se han ingresado en un fecha especifica, cabe mencionar que de igual forma se requiere el token generado por el usuario logueado para obtener los datos y nos lo mostrara de la siguiente manera:
 
-"img5"
+![](images/5.png)
 
 ## Delete
 
 El siguiente metodo permite al administrador eliminar un registro previo realizado en caja, como ya se menciono de igual forma se necesita ser administrador y un token generado 
 
-"img6"
+![](images/6.png)
 
 
 # Despliegue :partly_sunny:
 
 EL deploy de la aplicacion se encuentra en Heroku [Aplicacion](https://gentle-waters-83350.herokuapp.com/)
 
-"img7"
+![](images/7.png)
 
 # Base de datos
 
@@ -80,15 +80,15 @@ Como ya se menciono al app cuenta con un sustema de base de datos donde se almac
 
 ## Tablas
 
-"img8"
+![](images/8.png)
 
 ## Atlas: MongoDB
 
-"img9"
+![](images/9.png)
 
 ## Local
 
-"img10"
+![](images/10.png)
 
 # Autor :man:
 
